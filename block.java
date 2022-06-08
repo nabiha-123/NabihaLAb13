@@ -1,6 +1,6 @@
 package test;
 
-public class block {
+public class blocks {
 	private Object lock1=new Object();
 	private Object lock2=new Object();
 	private Object lock3=new Object();
@@ -26,7 +26,7 @@ public class block {
 		}
 	}
 	
-	public void maths() {
+	public void English() {
 		synchronized(lock1) {
 			synchronized(lock2) {
 				synchronized(lock3) {
